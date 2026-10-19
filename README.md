@@ -44,7 +44,17 @@ At the prompt of a Claude Code terminal session:
 
 Answer `y` to add the marketplace (the first time only), then choose a scope (user scope is the default and loads the mod in every session). Each mod becomes active in that session right away.
 
-From a shell:
+**Older Claude Code versions** (`error: unknown option '--marketplace'`): add the marketplace once, then install by name. This form works on every version:
+
+```bash
+claude plugin marketplace add Marco-Sau/claude-code-mods
+claude plugin install token-meter@marcosau-mods
+claude plugin install session-stats@marcosau-mods
+```
+
+The same works at the prompt: `/plugin marketplace add Marco-Sau/claude-code-mods`, then `/plugin install token-meter@marcosau-mods`.
+
+From a shell, on recent versions:
 
 ```bash
 claude plugin install token-meter --marketplace Marco-Sau/claude-code-mods

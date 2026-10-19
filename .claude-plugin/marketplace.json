@@ -1,0 +1,17 @@
+{
+  "name": "marcosau-mods",
+  "description": "Claude Code mods by Marco Sau: live token, model, context and rate-limit readouts above the prompt",
+  "owner": { "name": "Marco Sau", "url": "https://marcosau.com" },
+  "plugins": [
+    {
+      "name": "token-meter",
+      "source": "./token-meter",
+      "description": "Shows input and output tokens for every prompt, plus the running session total, above the prompt"
+    },
+    {
+      "name": "session-stats",
+      "source": "./session-stats",
+      "description": "Shows the active model, effort level, context fill and rate-limit usage with reset times above the prompt"
+    }
+  ]
+}

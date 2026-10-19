@@ -1,0 +1,13 @@
+{
+  "name": "token-meter",
+  "version": "1.0.0",
+  "description": "Shows input and output tokens for every prompt, plus the running session total, above the prompt.",
+  "author": {
+    "name": "Marco Sau",
+    "url": "https://marcosau.com"
+  },
+  "homepage": "https://github.com/Marco-Sau/claude-code-mods",
+  "repository": "https://github.com/Marco-Sau/claude-code-mods",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}
